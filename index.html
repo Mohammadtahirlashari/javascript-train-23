@@ -20,17 +20,31 @@
     <!-- Site Wrapper -->
  <div id="wrapper">
 	<header class="bg-success">
-		<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Toggle bottom offcanvas</button>
-
-		<div class="offcanvas-lg offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-		  <div class="offcanvas-header">
-			<h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
-			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-		  </div>
-		  <div class="offcanvas-body small">
-			...
-		  </div>
-		</div>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">JS Train 2023</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">JavaScript History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">JavaScript Basics</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 	</header>
  </div>
     <!-- Bootstrap JS -->
